@@ -1,13 +1,12 @@
-## Hi there 👋
 <div align="center">
 
-  <!-- Cyberpunk Terminal Header -->
-  <img src="https://raw.githubusercontent.com/punyacharlie236-ui/punyacharlie236-ui/main/dark.svg" width="100%" alt="Cyberpunk Terminal Project Zone" />
+  <!-- Cyberpunk Terminal Header (Akun lilabshor) -->
+  <img src="https://raw.githubusercontent.com/lilabshor/lilabshor/main/dark.svg" width="100%" alt="Cyberpunk Terminal Project Zone" />
 
   <br><br>
 
-  <!-- GitHub Streak Stats -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=punyacharlie236-ui&theme=tokyonight-duo&hide_border=true&background=00000000" alt="GitHub Streak" />
+  <!-- GitHub Streak Stats (Akun lilabshor) -->
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=lilabshor&theme=tokyonight-duo&hide_border=true&background=00000000" alt="GitHub Streak" />
 
   <br><br>
 
