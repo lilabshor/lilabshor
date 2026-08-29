@@ -71,9 +71,9 @@
   <circle cx="48" cy="23" r="6" fill="#eab308" />
   <circle cx="68" cy="23" r="6" fill="#22c55e" />
 
-  <!-- Command Title -->
+  <!-- Command Title (lilabshor) -->
   <text x="430" y="27" class="font-mono" fill="#00f0ff" font-size="12" font-weight="600" text-anchor="middle" filter="url(#subtleGlow)">
-   lilabshor@zone:~$ ./imajinasi_unlimited.sh --live
+    lilabshor@project-zone:~$ ./imajinasi_unlimited.sh --live
   </text>
 
   <!-- LEFT PANEL: Virtual Map & Rotating Hologram -->
@@ -138,9 +138,9 @@
     <text x="325" y="115" fill="#ffffff" font-size="10.5" font-weight="700" letter-spacing="0.3">✦ Welcome to my profile di zona saya!</text>
 
     <!-- Rows -->
-    <!-- Row 1: Subject -->
+    <!-- Row 1: Subject (Lil Abshor) -->
     <text x="315" y="152" class="label">Subject</text>
-    <text x="835" y="152" class="val">Charlie</text>
+    <text x="835" y="152" class="val">Lil Abshor</text>
     
     <!-- Row 2: Role -->
     <text x="315" y="180" class="label">Role</text>
@@ -168,10 +168,10 @@
     <text x="315" y="320" class="label">Origin</text>
     <text x="835" y="320" class="val">Planet Bumi 🌍</text>
 
-    <!-- Connectivity -->
+    <!-- Connectivity (@lilabshor) -->
     <text x="315" y="348" fill="#64748b" font-size="11">─── connectivity ───</text>
     <text x="315" y="370" class="label">Grid.GitHub</text>
-    <text x="835" y="370" fill="#a855f7" font-size="12" font-weight="700" text-anchor="end">@punyacharlie236-ui</text>
+    <text x="835" y="370" fill="#a855f7" font-size="12" font-weight="700" text-anchor="end">@lilabshor</text>
 
     <!-- Bottom prompt -->
     <line x1="315" y1="384" x2="835" y2="384" stroke="#162744" stroke-dasharray="3 3"/>
