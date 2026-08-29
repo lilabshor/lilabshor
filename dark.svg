@@ -1,51 +1,28 @@
 <svg width="860" height="435" viewBox="0 0 860 435" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background Gradients -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#040711"/>
-      <stop offset="50%" stop-color="#070c1a"/>
-      <stop offset="100%" stop-color="#0d1527"/>
+      <stop offset="0%" stop-color="#040711"/><stop offset="50%" stop-color="#070c1a"/><stop offset="100%" stop-color="#0d1527"/>
     </linearGradient>
-
-    <!-- Animated Cyber Glow Border -->
     <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00f0ff"/>
-      <stop offset="35%" stop-color="#a855f7"/>
-      <stop offset="70%" stop-color="#ec4899"/>
-      <stop offset="100%" stop-color="#00f0ff">
-        <animate attributeName="stop-color" values="#00f0ff;#ec4899;#a855f7;#00f0ff" dur="7s" repeatCount="indefinite" />
-      </stop>
+      <stop offset="0%" stop-color="#00f0ff"><animate attributeName="stop-color" values="#00f0ff;#ff007b;#a855f7;#00f0ff" dur="7s" repeatCount="indefinite" /></stop>
+      <stop offset="50%" stop-color="#a855f7"><animate attributeName="stop-color" values="#a855f7;#00f0ff;#ff007b;#a855f7" dur="6s" repeatCount="indefinite" /></stop>
+      <stop offset="100%" stop-color="#ff007b"><animate attributeName="stop-color" values="#ff007b;#a855f7;#00f0ff;#ff007b" dur="7s" repeatCount="indefinite" /></stop>
     </linearGradient>
-
-    <!-- Neon Text Gradients -->
-    <linearGradient id="neonPurple" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#c084fc"/>
-      <stop offset="50%" stop-color="#f472b6"/>
-      <stop offset="100%" stop-color="#38bdf8"/>
+    <linearGradient id="morphLogoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff"><animate attributeName="stop-color" values="#00f0ff;#a855f7;#ff007b;#00f0ff" dur="4s" repeatCount="indefinite"/></stop>
+      <stop offset="50%" stop-color="#c084fc"><animate attributeName="stop-color" values="#c084fc;#ff007b;#00f0ff;#c084fc" dur="4s" repeatCount="indefinite"/></stop>
+      <stop offset="100%" stop-color="#f472b6"><animate attributeName="stop-color" values="#f472b6;#00f0ff;#a855f7;#f472b6" dur="4s" repeatCount="indefinite"/></stop>
     </linearGradient>
-
     <linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#6366f1"/>
-      <stop offset="100%" stop-color="#a855f7"/>
+      <stop offset="0%" stop-color="#6366f1"/><stop offset="100%" stop-color="#a855f7"/>
     </linearGradient>
-
-    <!-- Glow Filters -->
     <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="5" result="blur1" />
-      <feGaussianBlur stdDeviation="12" result="blur2" />
-      <feMerge>
-        <feMergeNode in="blur2" />
-        <feMergeNode in="blur1" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
+      <feGaussianBlur stdDeviation="6" result="blur1" /><feGaussianBlur stdDeviation="14" result="blur2" />
+      <feMerge><feMergeNode in="blur2" /><feMergeNode in="blur1" /><feMergeNode in="SourceGraphic" /></feMerge>
     </filter>
-
     <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+      <feGaussianBlur stdDeviation="3" result="blur" /><feComposite in="SourceGraphic" in2="blur" operator="over"/>
     </filter>
-
-    <!-- Cyber Background Grid -->
     <pattern id="cyberGrid" width="20" height="20" patternUnits="userSpaceOnUse">
       <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#111d33" stroke-width="0.75" stroke-opacity="0.35"/>
       <circle cx="20" cy="0" r="1" fill="#00f0ff" fill-opacity="0.2"/>
@@ -58,211 +35,75 @@
     .val { fill: #f8fafc; font-size: 11.5px; font-weight: 600; text-anchor: end; }
   </style>
 
-  <!-- Container Box -->
   <rect x="2" y="2" width="856" height="431" rx="14" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1.8"/>
   <rect x="3" y="3" width="854" height="429" rx="13" fill="url(#cyberGrid)" />
 
   <!-- Title Bar -->
   <rect x="2" y="2" width="856" height="42" rx="14" fill="#070c18" fill-opacity="0.95" />
   <line x1="2" y1="44" x2="858" y2="44" stroke="#15243d" stroke-width="1.2"/>
-
-  <!-- Window Controls -->
-  <circle cx="28" cy="23" r="6" fill="#ef4444" />
-  <circle cx="48" cy="23" r="6" fill="#eab308" />
-  <circle cx="68" cy="23" r="6" fill="#22c55e" />
-
-  <!-- Command Title -->
+  <circle cx="28" cy="23" r="6" fill="#ef4444" /><circle cx="48" cy="23" r="6" fill="#eab308" /><circle cx="68" cy="23" r="6" fill="#22c55e" />
   <text x="430" y="27" class="font-mono" fill="#00f0ff" font-size="12" font-weight="600" text-anchor="middle" filter="url(#subtleGlow)">
     lilabshor@project-zone:~$ ./imajinasi_unlimited.sh --live
   </text>
 
-  <!-- LEFT PANEL: Cyber Arcade Game Boy Box -->
+  <!-- LEFT PANEL: QUANTUM CORE -->
   <rect x="22" y="60" width="265" height="350" rx="10" fill="#060a14" stroke="#162744" stroke-width="1.2"/>
+  <text x="45" y="85" class="font-mono" fill="#00f0ff" font-size="10" font-weight="700" letter-spacing="2">◈ Q U A N T U M . C O R E</text>
+  <text x="268" y="85" class="font-mono" fill="#a855f7" font-size="9" font-weight="600" text-anchor="end">OUTPUT: 999%</text>
   
-  <!-- Cyber Arcade Header -->
-  <text x="45" y="85" class="font-mono" fill="#00f0ff" font-size="10" font-weight="700" letter-spacing="2">◈ C Y B E R . A R C A D E</text>
-  <text x="268" y="85" class="font-mono" fill="#ff007b" font-size="9" font-weight="600" text-anchor="end">LVL.99 ✦</text>
-  
-  <!-- Neon Corner Brackets -->
   <path d="M 45 105 L 45 92 L 58 92" stroke="#00f0ff" stroke-width="2" fill="none" stroke-linecap="round"/>
   <path d="M 255 92 L 268 92 L 268 105" stroke="#00f0ff" stroke-width="2" fill="none" stroke-linecap="round"/>
   <path d="M 45 335 L 45 348 L 58 348" stroke="#00f0ff" stroke-width="2" fill="none" stroke-linecap="round"/>
   <path d="M 255 348 L 268 348 L 268 335" stroke="#00f0ff" stroke-width="2" fill="none" stroke-linecap="round"/>
-  
-  <!-- Inner Visual Box -->
   <rect x="47" y="94" width="219" height="252" rx="8" fill="#050814" stroke="#162744" stroke-width="1"/>
 
-  <!-- Jumping Sound Equalizer Bars at Top -->
-  <g transform="translate(100, 106)" fill="#00f0ff">
-    <rect x="0" y="0" width="4" height="12" rx="1">
-      <animate attributeName="height" values="4;14;6;16;4" dur="0.8s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="12;2;10;0;12" dur="0.8s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="8" y="0" width="4" height="12" rx="1">
-      <animate attributeName="height" values="14;6;16;4;14" dur="0.7s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="2;10;0;12;2" dur="0.7s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="16" y="0" width="4" height="12" rx="1" fill="#c084fc">
-      <animate attributeName="height" values="8;16;4;12;8" dur="0.9s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="8;0;12;4;8" dur="0.9s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="24" y="0" width="4" height="12" rx="1" fill="#ff007b">
-      <animate attributeName="height" values="16;4;14;6;16" dur="0.6s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="0;12;2;10;0" dur="0.6s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="32" y="0" width="4" height="12" rx="1" fill="#00f0ff">
-      <animate attributeName="height" values="6;14;4;16;6" dur="0.75s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="10;2;12;0;10" dur="0.75s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="40" y="0" width="4" height="12" rx="1">
-      <animate attributeName="height" values="12;6;16;8;12" dur="0.85s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="4;10;0;8;4" dur="0.85s" repeatCount="indefinite"/>
-    </rect>
+  <!-- 3D Gyroscope Rotating Rings -->
+  <g transform="translate(156, 220)">
+    <ellipse cx="0" cy="0" rx="90" ry="32" stroke="#00f0ff" stroke-width="1.8" stroke-dasharray="16 8" fill="none">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="10s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="0" cy="0" rx="72" ry="72" stroke="#a855f7" stroke-width="1.4" stroke-dasharray="24 12" fill="none">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="8s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="0" cy="0" rx="55" ry="22" stroke="#ff007b" stroke-width="1.5" stroke-dasharray="8 4" fill="none">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite"/>
+    </ellipse>
+    <circle cx="0" cy="0" r="18" fill="url(#morphLogoGrad)" filter="url(#neonGlow)">
+      <animate attributeName="r" values="16;22;16" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="8" fill="#ffffff" filter="url(#subtleGlow)"/>
   </g>
 
-  <!-- Retro Cyber Console Chassis -->
-  <g filter="url(#subtleGlow)">
-    <rect x="74" y="124" width="165" height="205" rx="16" fill="#0d1428" stroke="url(#borderGrad)" stroke-width="1.8"/>
-    
-    <!-- Speaker Slits -->
-    <line x1="195" y1="135" x2="220" y2="135" stroke="#1f2f4e" stroke-width="2" stroke-linecap="round"/>
-    <line x1="198" y1="139" x2="217" y2="139" stroke="#1f2f4e" stroke-width="2" stroke-linecap="round"/>
-    
-    <!-- Power LED -->
-    <circle cx="88" cy="138" r="3" fill="#22c55e">
-      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" repeatCount="indefinite"/>
-    </circle>
-
-    <!-- Arcade Screen Frame -->
-    <rect x="86" y="148" width="141" height="96" rx="8" fill="#030712" stroke="#00f0ff" stroke-width="1.5"/>
-    <rect x="90" y="152" width="133" height="88" rx="5" fill="#060f1f"/>
-
-    <!-- Animated Bouncing Pixel Character -->
-    <g transform="translate(105, 175)">
-      <animateTransform attributeName="transform" type="translate" values="100,175; 165,175; 100,175" dur="4s" repeatCount="indefinite"/>
-      
-      <circle cx="14" cy="14" r="13" fill="#fbbf24" stroke="#f59e0b" stroke-width="1.2"/>
-      <circle cx="17" cy="9" r="2.5" fill="#0f172a"/>
-      <circle cx="18" cy="8.5" r="0.8" fill="#ffffff"/>
-      
-      <!-- Mouth Animation -->
-      <path d="M 14 14 L 27 6 A 13 13 0 0 1 27 22 Z" fill="#060f1f">
-        <animate attributeName="d" values="M 14 14 L 27 6 A 13 13 0 0 1 27 22 Z; M 14 14 L 27 14 A 13 13 0 0 1 27 14 Z; M 14 14 L 27 6 A 13 13 0 0 1 27 22 Z" dur="0.4s" repeatCount="indefinite"/>
-      </path>
-    </g>
-
-    <!-- Glowing Power Pellet Dots -->
-    <circle cx="205" cy="189" r="4.5" fill="#ff007b" filter="url(#subtleGlow)">
-      <animate attributeName="opacity" values="0.4;1;0.4" dur="0.6s" repeatCount="indefinite"/>
-      <animate attributeName="r" values="3.5;5;3.5" dur="0.6s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="180" cy="189" r="3" fill="#00f0ff" opacity="0.8"/>
-    <circle cx="155" cy="189" r="3" fill="#00f0ff" opacity="0.8"/>
-
-    <!-- Score & Health -->
-    <text x="96" y="164" class="font-mono" fill="#22c55e" font-size="8" font-weight="700">HIGH: 9999</text>
-    <text x="180" y="232" class="font-mono" fill="#ff007b" font-size="8" font-weight="800">♥ ♥ ♥</text>
-
-    <!-- D-Pad Controller -->
-    <g transform="translate(95, 258)">
-      <rect x="10" y="0" width="10" height="30" rx="3" fill="#1e293b" stroke="#38bdf8" stroke-width="1"/>
-      <rect x="0" y="10" width="30" height="10" rx="3" fill="#1e293b" stroke="#38bdf8" stroke-width="1"/>
-      <circle cx="15" cy="15" r="3" fill="#0f172a"/>
-      <polygon points="15,2 12,6 18,6" fill="#00f0ff">
-        <animate attributeName="opacity" values="0.3;1;0.3" dur="1s" repeatCount="indefinite"/>
-      </polygon>
-      <polygon points="28,15 24,12 24,18" fill="#00f0ff">
-        <animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite"/>
-      </polygon>
-    </g>
-
-    <!-- Action Buttons A & B -->
-    <g transform="translate(182, 260)">
-      <circle cx="10" cy="18" r="9" fill="#7000ff" stroke="#c084fc" stroke-width="1.2">
-        <animate attributeName="fill" values="#7000ff;#ff007b;#7000ff" dur="2s" repeatCount="indefinite"/>
-      </circle>
-      <text x="10" y="21.5" class="font-mono" fill="#ffffff" font-size="8" font-weight="900" text-anchor="middle">B</text>
-
-      <circle cx="28" cy="8" r="9" fill="#ff007b" stroke="#f472b6" stroke-width="1.2">
-        <animate attributeName="fill" values="#ff007b;#00f0ff;#ff007b" dur="2s" repeatCount="indefinite"/>
-      </circle>
-      <text x="28" y="11.5" class="font-mono" fill="#ffffff" font-size="8" font-weight="900" text-anchor="middle">A</text>
-    </g>
-
-    <!-- Select & Start Buttons -->
-    <rect x="135" y="306" width="18" height="5" rx="2.5" fill="#334155" transform="rotate(-25 135 306)"/>
-    <rect x="160" y="306" width="18" height="5" rx="2.5" fill="#334155" transform="rotate(-25 160 306)"/>
-  </g>
-
-  <!-- Bottom Status Tag -->
   <rect x="40" y="360" width="233" height="30" rx="6" fill="#091326" stroke="#00f0ff" stroke-width="1" stroke-opacity="0.6"/>
-  <circle cx="56" cy="375" r="3.5" fill="#ff007b">
-    <animate attributeName="opacity" values="0.4;1;0.4" dur="0.8s" repeatCount="indefinite"/>
-  </circle>
-  <text x="160" y="379" class="font-mono" fill="#00f0ff" font-size="10" font-weight="700" text-anchor="middle" letter-spacing="1.5">
-    PRESS START // PLAY FOR FUN 🕹️
-  </text>
+  <circle cx="56" cy="375" r="3.5" fill="#00f0ff"><animate attributeName="opacity" values="0.4;1;0.4" dur="1s" repeatCount="indefinite"/></circle>
+  <text x="160" y="379" class="font-mono" fill="#00f0ff" font-size="10" font-weight="700" text-anchor="middle" letter-spacing="1.5">REAKTOR : ENERGI 100% ⚡</text>
 
-  <!-- RIGHT PANEL: System Info -->
+  <!-- RIGHT PANEL -->
   <g class="font-mono">
-    <!-- Header -->
     <text x="315" y="85" fill="#00f0ff" font-size="12.5" font-weight="700" letter-spacing="2">SYSTEM.INFO</text>
-    
-    <!-- Live Pulse Indicator -->
     <g transform="translate(805, 81)">
       <circle cx="0" cy="0" r="4" fill="#22c55e" stroke="#22c55e" stroke-width="1">
-        <animate attributeName="r" values="4;11;4" dur="2s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0.8;0;0.8" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="4;11;4" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0;0.8" dur="2s" repeatCount="indefinite"/>
       </circle>
-      <circle cx="0" cy="0" r="4" fill="#22c55e" filter="url(#subtleGlow)"/>
-      <text x="12" y="4" fill="#22c55e" font-size="11" font-weight="700">LIVE</text>
+      <circle cx="0" cy="0" r="4" fill="#22c55e" filter="url(#subtleGlow)"/><text x="12" y="4" fill="#22c55e" font-size="11" font-weight="700">LIVE</text>
     </g>
 
-    <!-- Zone Pill Badge -->
     <rect x="315" y="100" width="280" height="22" rx="5" fill="url(#pillGrad)" stroke="#c084fc" stroke-width="1"/>
     <text x="325" y="115" fill="#ffffff" font-size="10.5" font-weight="700" letter-spacing="0.3">✦ Welcome to my profile di zona saya!</text>
 
-    <!-- Rows -->
-    <!-- Row 1: Subject -->
-    <text x="315" y="152" class="label">Subject</text>
-    <text x="835" y="152" class="val">{subject_name}</text>
-    
-    <!-- Row 2: Role -->
-    <text x="315" y="180" class="label">Role</text>
-    <text x="835" y="180" class="val" fill="#f43f5e">Berpikir Berlebihan</text>
-    
-    <!-- Row 3: Daily.Formula -->
-    <text x="315" y="208" class="label">Daily.Formula</text>
-    <text x="835" y="208" fill="url(#neonPurple)" font-size="11.5" font-weight="800" text-anchor="end" filter="url(#subtleGlow)">
-      50% Imajinasi, 50% Nekat Nyoba 🪄
-    </text>
+    <text x="315" y="152" class="label">Subject</text><text x="835" y="152" class="val">Lil Abshor</text>
+    <text x="315" y="180" class="label">Role</text><text x="835" y="180" class="val" fill="#f43f5e">Berpikir Berlebihan</text>
+    <text x="315" y="208" class="label">Daily.Formula</text><text x="835" y="208" fill="url(#morphLogoGrad)" font-size="11.5" font-weight="800" text-anchor="end" filter="url(#subtleGlow)">50% Imajinasi, 50% Nekat Nyoba 🪄</text>
+    <text x="315" y="236" class="label">Misi.Utama</text><text x="835" y="236" class="val" fill="#e2e8f0" font-size="10.8">Bersenang-senang &amp; Berkarya Bebas Sesuai Imajinasi</text>
+    <text x="315" y="264" class="label">Toolchain</text><text x="835" y="264" class="val" fill="#38bdf8">Rahasia dong, kalau dikasih tahu nanti naksir 😉</text>
+    <text x="315" y="292" class="label">Core.Stack</text><text x="835" y="292" class="val" fill="#cbd5e1">Apa Saja yang Melintas di Pikiran 🧠</text>
+    <text x="315" y="320" class="label">Origin</text><text x="835" y="320" class="val">Planet Bumi 🌍</text>
 
-    <!-- Row 4: Misi.Utama -->
-    <text x="315" y="236" class="label">Misi.Utama</text>
-    <text x="835" y="236" class="val" fill="#e2e8f0" font-size="10.8">Bersenang-senang &amp; Berkarya Bebas Sesuai Imajinasi</text>
-
-    <!-- Row 5: Toolchain -->
-    <text x="315" y="264" class="label">Toolchain</text>
-    <text x="835" y="264" class="val" fill="#38bdf8">Rahasia dong, kalau dikasih tahu nanti naksir 😉</text>
-
-    <!-- Row 6: Core.Stack -->
-    <text x="315" y="292" class="label">Core.Stack</text>
-    <text x="835" y="292" class="val" fill="#cbd5e1">Apa Saja yang Melintas di Pikiran 🧠</text>
-
-    <!-- Row 7: Origin -->
-    <text x="315" y="320" class="label">Origin</text>
-    <text x="835" y="320" class="val">Planet Bumi 🌍</text>
-
-    <!-- Connectivity -->
     <text x="315" y="348" fill="#64748b" font-size="11">─── connectivity ───</text>
-    <text x="315" y="370" class="label">Grid.GitHub</text>
-    <text x="835" y="370" fill="#a855f7" font-size="12" font-weight="700" text-anchor="end">@{username}</text>
+    <text x="315" y="370" class="label">Grid.GitHub</text><text x="835" y="370" fill="#a855f7" font-size="12" font-weight="700" text-anchor="end">@lilabshor</text>
 
-    <!-- Bottom prompt with Session ID -->
     <line x1="315" y1="384" x2="835" y2="384" stroke="#162744" stroke-dasharray="3 3"/>
-    <text x="315" y="407" fill="#64748b" font-size="10.5">&gt; Session ID : <tspan fill="#00f0ff" font-weight="600">{session_id[:16]}...{session_id[-10:]}</tspan></text>
-    <rect x="635" y="396" width="8" height="13" fill="#00f0ff">
-      <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
-    </rect>
+    <text x="315" y="407" fill="#64748b" font-size="10.5">&gt; Session ID : <tspan fill="#00f0ff" font-weight="600">05cc2e476c09cf2a...7952ae245d</tspan></text>
+    <rect x="635" y="396" width="8" height="13" fill="#00f0ff"><animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/></rect>
   </g>
 </svg>
