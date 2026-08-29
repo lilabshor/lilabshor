@@ -1,7 +1,12 @@
 <div align="center">
 
-  <!-- Cyberpunk Terminal Header (Dengan Barcode Session) -->
-  <img src="https://raw.githubusercontent.com/lilabshor/lilabshor/main/dark.svg" width="100%" alt="Cyberpunk Terminal Project Zone" />
+  <!-- Cyberpunk Avatar Card (Foto Profil Anime) -->
+  <img src="https://raw.githubusercontent.com/lilabshor/lilabshor/main/profile.jpg" width="130" height="130" style="border-radius: 50%; border: 2.5px solid #00f0ff; box-shadow: 0 0 20px rgba(0, 240, 255, 0.4); object-fit: cover;" alt="Avatar Lil Abshor" />
+  
+  <br><br>
+
+  <!-- Cyberpunk Terminal Header -->
+  <img src="https://raw.githubusercontent.com/lilabshor/lilabshor/main/dark.svg?v=4" width="100%" alt="Cyberpunk Terminal Project Zone" />
 
   <br><br>
 
@@ -27,6 +32,6 @@
 <div align="center">
 
 ### 💬 Contact via Session:
-Scan barcode di terminal atau salin ID Session:
+Scan barcode atau salin ID Session:
 ```text
 05cc2e476c09cf2a7d0466960c9ebffb14155627c0d440e21f620a687952ae245d
