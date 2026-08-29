@@ -1,12 +1,7 @@
 <div align="center">
 
-  <!-- Cyberpunk Avatar Card (Foto Profil Anime) -->
-  <img src="https://raw.githubusercontent.com/lilabshor/lilabshor/main/profile.jpg" width="130" height="130" style="border-radius: 50%; border: 2.5px solid #00f0ff; box-shadow: 0 0 20px rgba(0, 240, 255, 0.4); object-fit: cover;" alt="Avatar Lil Abshor" />
-  
-  <br><br>
-
-  <!-- Cyberpunk Terminal Header -->
-  <img src="https://raw.githubusercontent.com/lilabshor/lilabshor/main/dark.svg?v=4" width="100%" alt="Cyberpunk Terminal Project Zone" />
+  <!-- Cyberpunk Terminal Header (Langsung di paling atas, bersih tanpa teks avatar) -->
+  <img src="https://raw.githubusercontent.com/lilabshor/lilabshor/main/dark.svg?v=6" width="100%" alt="Cyberpunk Terminal Project Zone" />
 
   <br><br>
 
