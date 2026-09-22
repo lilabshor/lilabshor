@@ -1,7 +1,7 @@
 <div align="center">
 
   <h1>Hi there, I'm lil Abshor 👋</h1>
-  <p><em>Passionate Developer & Lifelong Learner</em></p>
+  <p><em>Passionate Developer and Engineer & Lifelong Learner</em></p>
 
   <p>
     🚀 <strong>I love Programming and learning:</strong><br>
