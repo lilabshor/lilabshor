@@ -34,11 +34,7 @@
 ### 📊 GitHub Activity & Stats
 
 <div align="center">
-  <a href="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats?user_id=322623946" target="_blank">
-    <img src="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=322623946&image_size=auto&color_scheme=dark" width="95%" alt="lilabshor's GitHub Dashboard" />
-  </a>
-  <br><br>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=lilabshor&theme=tokyonight&hide_border=true&background=0d1117" alt="lilabshor Streak" width="80%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=lilabshor&theme=tokyonight&hide_border=true&background=0d1117" alt="lilabshor Streak" />
 </div>
 
 ---
