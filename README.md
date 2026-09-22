@@ -39,11 +39,22 @@
 
 ---
 
+### ☕ Support & Donations
+
+Jika Anda menyukai karya atau proyek open source yang saya kembangkan, Anda dapat memberikan dukungan melalui tautan di bawah:
+
+<div align="center">
+  <a href="https://saweria.co/lilabshor" target="_blank">
+    <img src="https://img.shields.io/badge/Saweria-Dukung%20di%20Saweria-FAAE2B?style=for-the-badge&logo=ko-fi&logoColor=black" alt="Dukung di Saweria" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://trakteer.id/lilabshor/tip" target="_blank">
+    <img src="https://img.shields.io/badge/Trakteer-Traktir%20Kopi-BE1E2D?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Traktir di Trakteer" />
+  </a>
+</div>
+
+---
+
 <div align="center">
   <sub>⭐️ Dibuat dengan dedikasi untuk terus belajar dan berinovasi.</sub>
 </div>
-
-### Contact via Session:
-Salin ID Session:
-```text
-05cc2e476c09cf2a7d0466960c9ebffb14155627c0d440e21f620a687952ae245d
