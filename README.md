@@ -43,15 +43,19 @@
 
 Jika Anda menyukai karya atau proyek open source yang saya kembangkan, Anda dapat memberikan dukungan melalui tautan di bawah:
 
-<div align="center">
+<p align="left">
   <a href="https://saweria.co/lilabshor" target="_blank">
     <img src="https://img.shields.io/badge/Saweria-Dukung%20di%20Saweria-FAAE2B?style=for-the-badge&logo=ko-fi&logoColor=black" alt="Dukung di Saweria" />
   </a>
-  &nbsp;&nbsp;
+  &nbsp;
   <a href="https://trakteer.id/lilabshor/tip" target="_blank">
     <img src="https://img.shields.io/badge/Trakteer-Traktir%20Kopi-BE1E2D?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Traktir di Trakteer" />
   </a>
-</div>
+  &nbsp;
+  <a href="https://sociabuzz.com/lilabshor/donate" target="_blank">
+    <img src="https://img.shields.io/badge/SociaBuzz-Dukung%20di%20SociaBuzz-2ECC71?style=for-the-badge&logoColor=white" alt="Dukung di SociaBuzz" />
+  </a>
+</p>
 
 ---
 
