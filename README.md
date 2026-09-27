@@ -42,7 +42,8 @@
 ### ☕ Support & Donations
 
 Jika Anda menyukai karya atau proyek open source yang saya kembangkan, Anda dapat memberikan dukungan melalui tautan di bawah:
-<p align="center">
+
+<p align="left">
   <a href="https://saweria.co/lilabshor" target="_blank">
     <img src="https://img.shields.io/badge/Saweria-Dukung%20di%20Saweria-FAAE2B?style=for-the-badge&logo=ko-fi&logoColor=black" alt="Dukung di Saweria" />
   </a>
@@ -53,6 +54,10 @@ Jika Anda menyukai karya atau proyek open source yang saya kembangkan, Anda dapa
   &nbsp;
   <a href="https://sociabuzz.com/lilabshor/donate" target="_blank">
     <img src="https://img.shields.io/badge/SociaBuzz-Dukung%20di%20SociaBuzz-2ECC71?style=for-the-badge&logoColor=white" alt="Dukung di SociaBuzz" />
+  </a>
+  &nbsp;
+  <a href="https://nowpayments.io/donation/lilabshor" target="_blank">
+    <img src="https://img.shields.io/badge/NOWPayments-Donasi%20Crypto-0052FF?style=for-the-badge&logo=bitcoin&logoColor=white" alt="Donasi Via Crypto" />
   </a>
 </p>
 
