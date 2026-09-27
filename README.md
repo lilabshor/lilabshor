@@ -38,28 +38,31 @@
 </div>
 
 ---
-
 ### ☕ Support & Donations
 
 Jika Anda menyukai karya atau proyek open source yang saya kembangkan, Anda dapat memberikan dukungan melalui tautan di bawah:
 
-<p align="left">
+<div align="center">
+  <!-- Baris 1: Platform Kreator Utama -->
   <a href="https://saweria.co/lilabshor" target="_blank">
-    <img src="https://img.shields.io/badge/Saweria-Dukung%20di%20Saweria-FAAE2B?style=for-the-badge&logo=ko-fi&logoColor=black" alt="Dukung di Saweria" />
+    <img src="https://img.shields.io/badge/Saweria-Dukung%20di%20Saweria-FAAE2B?style=for-the-badge&logo=ko-fi&logoColor=black" alt="Saweria" />
   </a>
-  &nbsp;
+  &nbsp;&nbsp;
   <a href="https://trakteer.id/lilabshor/tip" target="_blank">
-    <img src="https://img.shields.io/badge/Trakteer-Traktir%20Kopi-BE1E2D?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Traktir di Trakteer" />
+    <img src="https://img.shields.io/badge/Trakteer-Traktir%20Kopi-BE1E2D?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Trakteer" />
   </a>
-  &nbsp;
+
+  <br><br>
+
+  <!-- Baris 2: Alternatif & Crypto -->
   <a href="https://sociabuzz.com/lilabshor/donate" target="_blank">
-    <img src="https://img.shields.io/badge/SociaBuzz-Dukung%20di%20SociaBuzz-2ECC71?style=for-the-badge&logoColor=white" alt="Dukung di SociaBuzz" />
+    <img src="https://img.shields.io/badge/SociaBuzz-Dukung%20di%20SociaBuzz-2ECC71?style=for-the-badge&logoColor=white" alt="SociaBuzz" />
   </a>
-  &nbsp;
+  &nbsp;&nbsp;
   <a href="https://nowpayments.io/donation/lilabshor" target="_blank">
-    <img src="https://img.shields.io/badge/NOWPayments-Donasi%20Crypto-0052FF?style=for-the-badge&logo=bitcoin&logoColor=white" alt="Donasi Via Crypto" />
+    <img src="https://img.shields.io/badge/NOWPayments-Donasi%20via%20Crypto-0052FF?style=for-the-badge&logo=bitcoin&logoColor=white" alt="Donasi via Crypto" />
   </a>
-</p>
+</div>
 
 ---
 
