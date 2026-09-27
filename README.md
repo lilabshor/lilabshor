@@ -42,8 +42,7 @@
 ### ☕ Support & Donations
 
 Jika Anda menyukai karya atau proyek open source yang saya kembangkan, Anda dapat memberikan dukungan melalui tautan di bawah:
-
-<p align="left">
+<p align="center">
   <a href="https://saweria.co/lilabshor" target="_blank">
     <img src="https://img.shields.io/badge/Saweria-Dukung%20di%20Saweria-FAAE2B?style=for-the-badge&logo=ko-fi&logoColor=black" alt="Dukung di Saweria" />
   </a>
