@@ -1,18 +1,21 @@
-&lt;div align=&quot;center&quot;&gt;
+<div align="center">
 
-  &lt;h1&gt;Hi there, I&#39;m lil Abshor 👋&lt;/h1&gt;
-  &lt;p&gt;&lt;em&gt;Passionate Developer and Engineer &amp; Lifelong Learner&lt;/em&gt;&lt;/p&gt;
+  <h1>Hi there, I'm lil Abshor 👋</h1>
+  <p><em>Passionate Developer and Engineer & Lifelong Learner</em></p>
 
-  &lt;p&gt;
-    🚀 &lt;strong&gt;I love Programming and learning:&lt;/strong&gt;&lt;br&gt;
-    Python • C# • C • C++ • Rust • Go • Java • Kotlin • PHP • Swift • TypeScript • Solidity • Bash • SQL • Blockchain
-  &lt;/p&gt;
+  <p>
+    🚀 <strong>I love Programming and learning:</strong><br>
+    Python • C# • C • C++ • Rust • Go • Java • Kotlin • PHP • Swift • TypeScript • Solidity • Bash • SQL • Blockchain
+  </p>
 
-  &lt;p&gt;
-    &lt;a href=&quot;https://skillicons.dev&quot;&gt;&lt;img src=&quot;https://skillicons.dev/icons?i=py,cs,c,cpp,rust,go,java,kotlin,php,swift,ts,solidity,bash,mysql,postgres&amp;theme=dark&quot; alt=&quot;My Tech Stack&quot; /&gt;&lt;/a&gt;
-  &lt;/p&gt;
+  <!-- Skill Icons Modern (Dark Theme) -->
+  <p>
+    <a href="https://skillicons.dev">
+      <img src="https://skillicons.dev/icons?i=py,cs,c,cpp,rust,go,java,kotlin,php,swift,ts,solidity,bash,mysql,postgres&theme=dark" alt="My Tech Stack" />
+    </a>
+  </p>
 
-&lt;/div&gt;
+</div>
 
 ---
 
@@ -20,39 +23,54 @@
 
 | Category | Badges |
 | :--- | :--- |
-| **Systems & Scripting** |     |
-| **Backend & General** |      |
-| **Database (SQL)** |    |
-| **Mobile & Multiplatform** |   |
-| **Blockchain & Web3** |     |
+| **Systems & Scripting** | ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) |
+| **Backend & General** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white) ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) |
+| **Database (SQL)** | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) |
+| **Mobile & Multiplatform** | ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) |
+| **Blockchain & Web3** | ![Blockchain](https://img.shields.io/badge/Blockchain-FF8C00?style=flat-square&logo=blockchaindotcom&logoColor=white) ![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white) ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
 
 ---
 
 ### 📊 GitHub Activity & Stats
 
-&lt;div align=&quot;center&quot;&gt;
-  &lt;img src=&quot;https://streak-stats.demolab.com?user=lilabshor&amp;theme=tokyonight&amp;hide_border=true&amp;background=0d1117&quot; alt=&quot;lilabshor Streak&quot; /&gt;
-&lt;/div&gt;
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=lilabshor&theme=tokyonight&hide_border=true&background=0d1117" alt="lilabshor Streak" />
+</div>
 
 ---
-
 ### ☕ Support & Donations
 
 Jika Anda menyukai karya atau proyek open source yang saya kembangkan, Anda dapat memberikan dukungan melalui tautan di bawah:
 
-&lt;table align=&quot;center&quot;&gt;
-  &lt;tr&gt;
-    &lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://saweria.co/lilabshor&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/Saweria-Dukung%20di%20Saweria-FAAE2B?style=for-the-badge&amp;logo=ko-fi&amp;logoColor=black&quot; alt=&quot;Saweria&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://trakteer.id/lilabshor/tip&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/Trakteer-Traktir%20Kopi-BE1E2D?style=for-the-badge&amp;logo=buy-me-a-coffee&amp;logoColor=white&quot; alt=&quot;Trakteer&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://sociabuzz.com/lilabshor/donate&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/SociaBuzz-Dukung%20di%20SociaBuzz-2ECC71?style=for-the-badge&amp;logoColor=white&quot; alt=&quot;SociaBuzz&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
-    &lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://nowpayments.io/donation/lilabshor&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/NOWPayments-Donasi%20via%20Crypto-0052FF?style=for-the-badge&amp;logo=bitcoin&amp;logoColor=white&quot; alt=&quot;Donasi via Crypto&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="https://saweria.co/lilabshor" target="_blank">
+        <img src="https://img.shields.io/badge/Saweria-Dukung%20di%20Saweria-FAAE2B?style=for-the-badge&logo=ko-fi&logoColor=black" alt="Saweria" />
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://trakteer.id/lilabshor/tip" target="_blank">
+        <img src="https://img.shields.io/badge/Trakteer-Traktir%20Kopi-BE1E2D?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Trakteer" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://sociabuzz.com/lilabshor/donate" target="_blank">
+        <img src="https://img.shields.io/badge/SociaBuzz-Dukung%20di%20SociaBuzz-2ECC71?style=for-the-badge&logoColor=white" alt="SociaBuzz" />
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://nowpayments.io/donation/lilabshor" target="_blank">
+        <img src="https://img.shields.io/badge/NOWPayments-Donasi%20via%20Crypto-0052FF?style=for-the-badge&logo=bitcoin&logoColor=white" alt="Donasi via Crypto" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 ---
 
-&lt;div align=&quot;center&quot;&gt;
-  &lt;sub&gt;⭐️ Dibuat dengan dedikasi untuk terus belajar dan berinovasi.&lt;/sub&gt;
-&lt;/div&gt;
+<div align="center">
+  <sub>⭐️ Dibuat dengan dedikasi untuk terus belajar dan berinovasi.</sub>
+</div>
